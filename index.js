@@ -2,7 +2,7 @@ const http = require("http");
 const PORT = 3000;
 
 http.createServer(function (req, res) {
-	res.write("testing write on reaaaaaaaas");
+	res.write("Edited and updated by CI");
 	res.end();
 }).listen(PORT);
 
